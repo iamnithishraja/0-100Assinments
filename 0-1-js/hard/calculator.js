@@ -51,7 +51,7 @@ class Calculator {
         if (stack.length === 0) {
           throw new Error('Invalid expression: Unbalanced parentheses');
         }
-        stack.pop(); // Pop the '('
+        stack.pop();
       } else {
         while (
           stack.length && this.getPrecedence(stack[stack.length - 1]) >= this.getPrecedence(token)) {
