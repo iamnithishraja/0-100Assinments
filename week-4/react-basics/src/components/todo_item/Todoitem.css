@@ -1,0 +1,32 @@
+.todoItem {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.todoItem h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.todoItem p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.todoItem button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+}
